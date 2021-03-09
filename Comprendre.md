@@ -2,17 +2,16 @@
 
 - Tests sont importants pour réfléchir à différents usecases et donc tester la solidité de son code, ce n'est pas un outil pour débugger
 
-- Un bon test c'est un test qui échoue car il permet de détecter un bug
-Bien réalisés, ils ne font pas forcément perdre du temps puisque qu'ils permettent de limiter le nombre d'anomalies lors de la prod
+- Un bon test c'est un test qui échoue car il permet de détecter un bug. Bien réalisés, ils ne font pas forcément perdre du temps puisque qu'ils permettent de limiter le nombre d'anomalies lors de la prod
 
 - TDD : Test Driven Developement ⇒ penser aux tests à réaliser avant d'écrire le code
 
 
 Pourquoi faire des tests ?
 - très utile pour ne pas avoir à répéter manuellement un test d'un bout de code
--
+
 - les tests automatiques peuvent être exécutés dès qu'il y a un changement dans le code pour s'assurer que tout fonctionne toujours (et cela sans recourir à un test manuel)
--
+
 - Avantages : avoir une erreur dès qu'on "casse" notre code, gain de temps, réfléchir en amont aux bugs que l'on peut rencontrer, on écrit un code plus qualitatif
 
 
@@ -49,19 +48,19 @@ Test manuel (effectué par l’humain) : vérification globale (exemple : teste 
 
 Selon la méthodologie de travail choisie (agile ou séquentielle), on utilisera les tests adéquates.
 En méthode agile on utilisera 3 types de tests :
--Intégration (machine)
--Fonctionnels (machine)
--Acceptation (humain)
+- Intégration (machine)
+- Fonctionnels (machine)
+- Acceptation (humain)
 
--Test d’intégration : la fonctionnalité s’intègre-t-elle au reste du programme ?
--Test fonctionnel : tester le parcours utilisateur autour d’une fonctionnalité
--Test d’acceptation : la fonctionnalité correspond-elle aux attentes ?
+- Test d’intégration : la fonctionnalité s’intègre-t-elle au reste du programme ?
+- Test fonctionnel : tester le parcours utilisateur autour d’une fonctionnalité
+- Test d’acceptation : la fonctionnalité correspond-elle aux attentes ?
 
 En méthode séquentielle, 3 types aussi :
--Intégration (machine)
--Validation (humain)
--Recette (humain)
+- Intégration (machine)
+- Validation (humain)
+- Recette (humain)
 
--Intégration : s’intéressera aux spécifications techniques
--Validation : aux spécifications fonctionnelles
--Recette : aux attentes du client
+- Intégration : s’intéressera aux spécifications techniques
+- Validation : aux spécifications fonctionnelles
+- Recette : aux attentes du client
